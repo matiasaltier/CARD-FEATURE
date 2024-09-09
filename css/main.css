@@ -73,7 +73,7 @@ body {
 .cards-container {
     display: flex;
     max-height: 222px;
-    max-width: 311px;
+    max-width: 280px;
     background-color: #FFFFFF;
     padding: 1.3rem;
     justify-content: center;
