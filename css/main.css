@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,100&display=swap');
+
+:root {
+    --font: "Poppins", sans-serif;
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+h1 {
+    font-weight: 600;
+    color: var(--very-dark-blue);
+    font-size: 1.1rem;
+    letter-spacing: 0.17px;
+}
+
+h2 {
+    font-weight: 200;
+    color: var(--grayish-blue);
+    font-size: 1.1rem;
+    letter-spacing: 0.17px;
+}
+
+p {
+    font-weight: 400;
+    color: var(--grayish-blue);
+    font-size: .75rem;
+}
+
+body {
+    background-color: var(--very-light-gray);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    gap: 3rem;
+}
+
+.hero-technology {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.technology__subtitle {
+    padding-top: 1rem;
+}
+
+.technology__text {
+    padding-top: 1rem;
+}
+
+.hero-cards {
+    display: grid;
+    gap: 1.2rem;
+}
+
+.cards-container {
+    display: flex;
+    max-height: 222px;
+    max-width: 311px;
+    background-color: #FFFFFF;
+    padding: 1.3rem;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: column;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.cyan {
+    border-top: 3.55px solid var(--cyan);
+}
+
+.red {
+    border-top: 3.55px solid var(--red);
+}
+
+.orange {
+    border-top: 3.55px solid var(--orange);
+}
+
+.blue {
+    border-top: 3.55px solid var(--blue);
+}
+
+.container__title {
+    font-size: 1rem;
+    padding-bottom: .4rem;
+}
+
+.container__text {
+    font-size: .7rem;
+    padding-bottom: 2rem;
+}
+
+.cards-container img {
+    width: 57px;
+    align-self: end;
+}
